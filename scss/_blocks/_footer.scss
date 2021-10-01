@@ -1,0 +1,59 @@
+.footer{
+    background-image: url(/image/back.png);
+    padding-top: 10px;
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    &__img{
+        margin-right: 20px;
+        &--link{
+            text-decoration: none;
+        }
+    }
+    &__menu{
+        list-style-type: none;
+        &--item{
+            padding-bottom: 20px;
+        }
+        &--link{
+            text-decoration: none;
+            color: rgba(71, 71, 71, 0.5);
+            font-size: 24px;
+            font-weight: bold;
+        }
+    }
+    &__span{
+        color: #000;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    &__description{
+        font-size: 20px;
+        padding: 10px 0 10px 0;
+        color: rgba(0, 0, 0, 0.5);
+    }
+    &__item--desc{
+        width: 500px;
+        font-weight: bold;
+        color: rgba(71, 71, 71, 0.5);
+        font-size: 40px;
+    }
+    &__bottom--menu{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    &__bottom--item{
+        color: rgba(71, 71, 71, 0.8);
+        font-size: 16px;
+        font-weight: bold;
+    }
+    &__href{
+        color: #898989;
+    }
+}

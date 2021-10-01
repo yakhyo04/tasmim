@@ -1,0 +1,20 @@
+.header{
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link{
+        text-decoration: none;
+    }
+    &__phone{
+        padding: 10px 30px;
+        background-color: #ED111D;
+        color: #fff;
+        border-radius: 5px;
+    }
+    &__img{
+        width: 150px;
+    }
+}

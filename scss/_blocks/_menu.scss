@@ -1,0 +1,24 @@
+.menu{
+    padding: 10px 0 50px 0;
+    &__header{
+        margin-left: 20px;
+        padding-top: 20px;
+        color: #FF6B6B;
+        &::before{
+            content: url(/image/strelka.png);
+            position: relative;
+            top: 17px;
+            right: 14px;
+        }
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+    }
+    &__img{
+        width: 160px;
+    }
+}
