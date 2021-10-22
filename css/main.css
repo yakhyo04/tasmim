@@ -35,6 +35,12 @@
   background-color: #ED111D;
   color: #fff;
   border-radius: 5px;
+  border: 2px solid #ED111D;
+}
+
+.header__phone:hover {
+  background-color: #fff;
+  color: #ED111D;
 }
 
 .header__img {
@@ -119,12 +125,11 @@
 
 svg {
   margin-bottom: 10px;
-  width: 30px;
   cursor: pointer;
 }
 
-path:hover {
-  fill: #ff000d;
+circle:hover {
+  fill: black;
 }
 
 .main {
@@ -626,4 +631,43 @@ legend::before {
 
 .footer__href {
   color: #898989;
+}
+
+.extra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.extra__list {
+  list-style-type: none;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.extra__item {
+  margin-bottom: 10px;
+}
+
+.extra2__list {
+  list-style-type: none;
+}
+
+.extra2__item {
+  margin-bottom: 30px;
+  position: relative;
+  top: 250px;
+}
+
+.menu__extra {
+  display: none;
+  position: absolute;
+  width: 85%;
+  padding: 30px;
+  top: 100px;
+  background-color: black;
+  color: #fff;
 }

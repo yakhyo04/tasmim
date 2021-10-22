@@ -13,6 +13,11 @@
         background-color: #ED111D;
         color: #fff;
         border-radius: 5px;
+        border: 2px solid #ED111D;
+        &:hover{
+            background-color: #fff;
+            color: #ED111D;
+        }
     }
     &__img{
         width: 150px;

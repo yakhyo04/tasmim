@@ -1,0 +1,29 @@
+.extra{
+    display: flex;
+    justify-content: space-between;
+    &__list{
+        list-style-type: none;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    &__item{
+        margin-bottom: 10px;
+    }
+    &2__list{
+        list-style-type: none;
+    }
+    &2__item{
+        margin-bottom: 30px;
+        position: relative;
+        top: 250px;
+    }
+}
+.menu__extra{
+    display: none;
+    position: absolute;
+    width: 85%;
+    padding: 30px;
+    top: 100px;
+    background-color: black;
+    color: #fff;
+}
